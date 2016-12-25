@@ -9,7 +9,7 @@ To build and use the buildroot stuff, do the following:
 
 1) run 'make menuconfig'
 2) select the target architecture and the packages you wish to compile
-3) run 'make'
+3) run 'make O=<YOUR_DIRECTORY>'
 4) wait while it compiles
 5) find the kernel, bootloader, root filesystem, etc. in output/images
 

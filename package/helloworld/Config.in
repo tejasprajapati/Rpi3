@@ -1,0 +1,4 @@
+config BR2_HELLO_WORLD
+	bool "helloworld"
+	help
+		This is will print hello world when executed.
